@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  var c = this;
+	c.submit = function() {
+		c.server.update();
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto
+}
+
+form input{
+  //position: absolute;
+ 	//transform: translate(50%, 0);
+  text-align:right;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Widget for calculating realestate tax</description>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Realestate Tax Calculator</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[if(input){
+	data.answer = calc();
+}
+
+function calc() {
+	var n0 = input.n0;
+	var n1 = input.n1;
+	var tax = 0.019;
+	var amount = ((n0 + n1) * tax);
+	return amount.toFixed(2);
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 11:58:47</sys_created_on>
+        <sys_id>53271958db04c010e86f2a36ca9619c4</sys_id>
+        <sys_mod_count>137</sys_mod_count>
+        <sys_name>Realestate Tax Calculator</sys_name>
+        <sys_package display_value="Old project 2(broken)" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Old project 2(broken)">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_widget_53271958db04c010e86f2a36ca9619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 15:59:47</sys_updated_on>
+        <template><![CDATA[<div class="wrapper">
+  <form ng-submit="$event.preventDefault()" class="form-horizontal well">
+    <div class="form-group">
+      <label>${Enter the estimated value of your land.}</label>
+      <br><span>$</span><input value="0" ng-model="c.data.n0" type="number" step="0.01" min="0.00" max="1000000000" />
+      <br><br><label>Enter the value of the improvements<br>(i.e. anything built on the land.)</label>
+      <br><span>$</span><input value="0" ng-model="c.data.n1" type="number" step="0.01" min="0.00" max="1000000000" />
+      <!--<br><br><label>Enter the property tax rate for your area.</label>
+      <br><input value="0" ng-model="c.data.tax" type="number" step="0.1" min="0.00" max="100"/><span>%</span>-->
+    </div>
+    <div class="form-group">
+      <button type="button" class="btn btn-primary" ng-click="c.submit();">Submit</button>
+    </div>
+  </form>
+  <div class="well" ng-if="data.answer">Estimated total tax: ${{data.answer}}</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

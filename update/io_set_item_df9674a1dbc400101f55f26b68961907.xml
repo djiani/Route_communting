@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>400</order>
+        <sc_cat_item display_value="Reservation for Door to Door Transformation">34c3fc61dbc400101f55f26b68961922</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 06:47:57</sys_created_on>
+        <sys_id>df9674a1dbc400101f55f26b68961907</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Contact Information.Reservation for Door to Door Transformation</sys_name>
+        <sys_package display_value="Old project 2(broken)" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Old project 2(broken)">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>io_set_item_df9674a1dbc400101f55f26b68961907</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 07:10:54</sys_updated_on>
+        <variable_set display_value="Contact Information">9d867e5ddb4000101f55f26b689619b8</variable_set>
+    </io_set_item>
+</record_update>

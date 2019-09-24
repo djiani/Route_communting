@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Connector Bus in Hillsborough County">4cefae99db4000101f55f26b68961957</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<h3><strong><span style="font-size: 14pt;">Trip information</span></strong></h3>
+<ul style="list-style-position: inside;"><li>Transportation is provided to the nearest location available</li><li>Drivers will not go inside buildings to find you</li><li>Drivers will offer assistance to and from the building, and into the vehicle, including assisting with the seat belt, and securing wheelchairs</li><li>Changes to return times will be accepted only if possible</li><li>All vehicles are wheelchair accessible</li><li>We are unable to transport wheelchairs:
+<ul style="list-style-position: inside;"><li>larger than 30&#34; wide by 48&#34; long when measured 2&#34; from the ground</li><li>that weigh more than 600 pounds when occupied</li></ul>
+</li></ul>
+<h3><span style="font-size: 12pt;">Reservation information</span></h3>
+<ul style="list-style-position: inside;"><li>They can be made up to seven days in advance</li><li>Must be made no less than two days in advance</li><li>Return trips are scheduled when you make your trip reservation</li><li>...</li></ul>
+<p> </p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Reservation for Door to Door Transformation</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=34c3fc61dbc400101f55f26b68961922&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method>request</request_method>
+        <roles/>
+        <sc_catalogs>6b9f2e99db4000101f55f26b689619b4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 06:45:12</sys_created_on>
+        <sys_id>34c3fc61dbc400101f55f26b68961922</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reservation for Door to Door Transformation</sys_name>
+        <sys_package display_value="Old project 2(broken)" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Old project 2(broken)">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sc_cat_item_34c3fc61dbc400101f55f26b68961922</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 20:08:08</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=34c3fc61dbc400101f55f26b68961922"/>
+    <fx_price action="delete_multiple" query="id=34c3fc61dbc400101f55f26b68961922"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>34c3fc61dbc400101f55f26b68961922</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 06:45:12</sys_created_on>
+        <sys_id>07f5f0a1dbc400101f55f26b68961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 06:45:12</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>34c3fc61dbc400101f55f26b68961922</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 06:45:12</sys_created_on>
+        <sys_id>8ff53ce1dbc400101f55f26b6896195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 06:45:12</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
